@@ -55,11 +55,16 @@ canvas {
 .ship_content .images {
     display: flex;
     flex-wrap: wrap;
+    flex-wrap: wrap;
     margin-bottom: 80px;
+    align-items: center;
 }
-.ship_content .images div {
-    width: 100px;
-    height: 100px;
-    background: #000;
-    margin-right: 50px;
+.ship_content .images svg {
+    width: 150px;
+    /* max-height: 200px; */
+    /* background: #000; */
+    margin-right: 10px;
+}
+.ship_content .images .twosvg {
+    width: 180px;
 }
